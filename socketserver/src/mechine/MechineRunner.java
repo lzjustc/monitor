@@ -13,9 +13,6 @@ import java.io.IOException;
 public class MechineRunner {
     public static void main(String[] args) throws IOException, InterruptedException {
         Machine machine = new Machine();
-        while (true) {
-            machine.sendHB();
-            Thread.sleep(2000);
-        }
+
     }
 }

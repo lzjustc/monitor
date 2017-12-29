@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * @Author : Li Zhijun
  * @Email : ustclzj@foxmail.com

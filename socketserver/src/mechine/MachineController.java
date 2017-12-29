@@ -1,13 +1,16 @@
+package mechine;
+
 import mechine.IMachine;
 import mechine.Machine;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @Author : Li Zhijun
  * @Email : ustclzj@foxmail.com
- * @Date : ${Date} 上午11:33
+ * @Date : 2017/12/29 上午11:33
  * @Description :
  */
 public class MachineController {
@@ -29,7 +32,7 @@ public class MachineController {
         runCommand(index,command);
     }
 
-    public boolean addMechine(){
+    public boolean addMechine() throws IOException {
         Machine machine = new Machine();
         machine.setThread(new Thread(machine));
         machine.getThread().start();
